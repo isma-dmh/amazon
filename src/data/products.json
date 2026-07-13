@@ -1,0 +1,200 @@
+[
+  {
+    "id": 1,
+    "nom": "Casque audio sans fil",
+    "prix": 89.99,
+    "image": "/casque.jpg",
+    "description": "Casque Bluetooth avec réduction de bruit active et 30h d'autonomie.",
+    "categorie": "Électronique",
+    "note": 4.5
+  },
+  {
+    "id": 2,
+    "nom": "Montre connectée",
+    "prix": 129.99,
+    "image": "/montre.jpg",
+    "description": "Suivi de l'activité physique, du sommeil et des notifications smartphone.",
+    "categorie": "Électronique",
+    "note": 4.2
+  },
+  {
+    "id": 3,
+    "nom": "Sac à dos urbain",
+    "prix": 49.99,
+    "image": "/sac.jpg",
+    "description": "Sac à dos résistant à l'eau avec compartiment pour ordinateur portable 15 pouces.",
+    "categorie": "Bagagerie",
+    "note": 4.7
+  },
+  {
+    "id": 4,
+    "nom": "Chaise de bureau ergonomique",
+    "prix": 199.99,
+    "image": "/chaise.jpg",
+    "description": "Chaise réglable avec soutien lombaire pour un confort optimal au travail.",
+    "categorie": "Mobilier",
+    "note": 4.4
+  },
+  {
+    "id": 5,
+    "nom": "Lampe de bureau LED",
+    "prix": 34.99,
+    "image": "/lampe.jpg",
+    "description": "Lampe à intensité variable avec port USB intégré pour recharge rapide.",
+    "categorie": "Mobilier",
+    "note": 4.3
+  },
+  {
+    "id": 6,
+    "nom": "Enceinte Bluetooth portable",
+    "prix": 59.99,
+    "image": "/enceinte.jpg",
+    "description": "Enceinte étanche avec son puissant et 12h d'autonomie.",
+    "categorie": "Électronique",
+    "note": 4.6
+  },
+  {
+    "id": 7,
+    "nom": "Tapis de yoga",
+    "prix": 24.99,
+    "image": "/tapis.jpg",
+    "description": "Tapis antidérapant écologique, idéal pour le yoga et la fitness.",
+    "categorie": "Sport",
+    "note": 4.8
+  },
+  {
+    "id": 8,
+    "nom": "Bouteille isotherme",
+    "prix": 19.99,
+    "image": "/bouteille.jpg",
+    "description": "Garde les boissons chaudes 12h et froides 24h, en acier inoxydable.",
+    "categorie": "Cuisine",
+    "note": 4.5
+  },
+  {
+    "id": 9,
+    "nom": "Clavier mécanique RGB",
+    "prix": 79.99,
+    "image": "/clavier.jpg",
+    "description": "Clavier gamer avec rétroéclairage personnalisable et switches tactiles.",
+    "categorie": "Informatique",
+    "note": 4.6
+  },
+  {
+    "id": 10,
+    "nom": "Souris sans fil ergonomique",
+    "prix": 29.99,
+    "image": "/souris.jpg",
+    "description": "Souris précise et confortable avec batterie longue durée.",
+    "categorie": "Informatique",
+    "note": 4.3
+  },
+  {
+    "id": 11,
+    "nom": "Cafetière à filtre",
+    "prix": 44.99,
+    "image": "/cafetiere.jpg",
+    "description": "Cafetière programmable avec plaque chauffante et carafe 1,5L.",
+    "categorie": "Cuisine",
+    "note": 4.1
+  },
+  {
+    "id": 12,
+    "nom": "Coussin de méditation",
+    "prix": 27.99,
+    "image": "/coussin.jpg",
+    "description": "Coussin rembourré pour un confort optimal lors de la méditation.",
+    "categorie": "Bien-être",
+    "note": 4.4
+  },
+  {
+    "id": 13,
+    "nom": "Chargeur solaire portable",
+    "prix": 39.99,
+    "image": "/chargeur.jpg",
+    "description": "Panneau solaire pliable idéal pour la randonnée et le camping.",
+    "categorie": "Électronique",
+    "note": 4.0
+  },
+  {
+    "id": 14,
+    "nom": "Plaid en laine",
+    "prix": 54.99,
+    "image": "/plaide.jpg",
+    "description": "Plaid doux et chaud, parfait pour les soirées cocooning.",
+    "categorie": "Maison",
+    "note": 4.7
+  },
+  {
+    "id": 15,
+    "nom": "Support pour ordinateur portable",
+    "prix": 32.99,
+    "image": "/support.jpg",
+    "description": "Support réglable en aluminium pour améliorer la posture de travail.",
+    "categorie": "Informatique",
+    "note": 4.5
+  },
+  {
+    "id": 16,
+    "nom": "Kit de jardinage",
+    "prix": 22.99,
+    "image": "/kit-jardinage.jpg",
+    "description": "Ensemble d'outils essentiels pour l'entretien du jardin ou des plantes d'intérieur.",
+    "categorie": "Jardin",
+    "note": 4.2
+  },
+  {
+    "id": 17,
+    "nom": "Ballon de basketball",
+    "prix": 25.99,
+    "image": "/basket.jpg",
+    "description": "Ballon officiel taille 7 avec bonne adhérence pour tous les terrains.",
+    "categorie": "Sport",
+    "note": 4.4
+  },
+  {
+    "id": 18,
+    "nom": "Diffuseur d'huiles essentielles",
+    "prix": 36.99,
+    "image": "/diffuseur.jpg",
+    "description": "Diffuseur à ultrasons avec éclairage LED multicolore et arrêt automatique.",
+    "categorie": "Bien-être",
+    "note": 4.6
+  },
+  {
+    "id": 19,
+    "nom": "Sac de couchage 3 saisons",
+    "prix": 64.99,
+    "image": "/sac-couchage.jpg",
+    "description": "Sac de couchage compact et chaud, idéal pour le camping.",
+    "categorie": "Sport",
+    "note": 4.3
+  },
+  {
+    "id": 20,
+    "nom": "Étagère murale flottante",
+    "prix": 41.99,
+    "image": "/etagere.jpg",
+    "description": "Étagère design en bois massif, facile à installer.",
+    "categorie": "Maison",
+    "note": 4.5
+  },
+  {
+    "id": 21,
+    "nom": "Trottinette électrique",
+    "prix": 349.99,
+    "image": "/trotinette.jpg",
+    "description": "Trottinette pliable avec autonomie de 25 km et vitesse max de 25 km/h.",
+    "categorie": "Mobilité",
+    "note": 4.4
+  },
+  {
+    "id": 22,
+    "nom": "Set de couteaux de cuisine",
+    "prix": 74.99,
+    "image": "/couteaux.jpg",
+    "description": "Set de 6 couteaux en acier inoxydable avec bloc de rangement.",
+    "categorie": "Cuisine",
+    "note": 4.7
+  }
+]
