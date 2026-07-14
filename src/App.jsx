@@ -1,4 +1,4 @@
-import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { Route, Routes } from "react-router-dom";
 import "./App.css";
 import { Home } from "./pages/Home";
 import { Cart } from "./pages/Cart";
@@ -6,11 +6,12 @@ import { Login } from "./pages/Login";
 import { Product } from "./pages/Product";
 import { Register } from "./pages/Register";
 import { NotFound } from "./pages/NotFound";
+import { Navbar } from "./components/Navbar";
 
 function App() {
   return (
     <>
-      <BrowserRouter>
+    <Navbar/>
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path='/product/:id' element={<Product/>} />
@@ -19,7 +20,6 @@ function App() {
           <Route path='/register' element={<Register/>} />
           <Route path='*' element={<NotFound/>} />
         </Routes>
-      </BrowserRouter>
     </>
   );
 }

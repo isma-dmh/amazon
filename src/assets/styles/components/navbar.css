@@ -1,0 +1,226 @@
+.navbar {
+  background: #131921;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  padding: 8px 10px;
+  gap: 10px;
+}
+
+.navbar > a {
+  text-decoration: none;
+}
+
+/* Logo */
+.logo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 8px 6px;
+  border: 1px solid transparent;
+}
+.logo:hover {
+  border: 1px solid #fff;
+  border-radius: 2px;
+}
+.logo-text {
+  font-size: 22px;
+  font-weight: bold;
+  color: #fff;
+  display: flex;
+  align-items: flex-start;
+}
+.logo-text .dot-com {
+  font-size: 13px;
+  font-weight: normal;
+  margin-left: 2px;
+  margin-top: 2px;
+  align-self: center;
+}
+.smile {
+  width: 50px;
+  height: 12px;
+  margin-top: -3px;
+  align-self: start;
+}
+
+/* Delivery location */
+.delivery {
+  display: flex;
+  align-items: flex-start;
+  gap: 4px;
+  padding: 8px 10px;
+  border: 1px solid transparent;
+  cursor: pointer;
+  font-size: 13px;
+  white-space: nowrap;
+}
+.delivery:hover {
+  border: 1px solid #fff;
+  border-radius: 2px;
+}
+.delivery svg {
+  margin-top: 3px;
+  flex-shrink: 0;
+}
+.delivery .line1 {
+  color: #ccc;
+}
+.delivery .line2 {
+  font-weight: bold;
+  color: #fff;
+}
+
+/* Search bar */
+.search {
+  flex: 1;
+  display: flex;
+  height: 40px;
+  border-radius: 4px;
+  overflow: hidden;
+  min-width: 200px;
+}
+.search-select {
+  background: #e6e6e6;
+  border: none;
+  padding: 0 8px;
+  font-size: 12px;
+  color: #333;
+  border-right: 1px solid #cacaca;
+  cursor: pointer;
+}
+.search-input {
+  flex: 1;
+  border: none;
+  padding: 0 10px;
+  font-size: 15px;
+  color: #333;
+  outline: none;
+}
+.search-btn {
+  background: #febd69;
+  border: none;
+  width: 45px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.search-btn:hover {
+  background: #f3a847;
+}
+
+/* Language */
+.lang {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  padding: 8px;
+  border: 1px solid transparent;
+  cursor: pointer;
+  font-size: 13px;
+  font-weight: bold;
+}
+.lang:hover {
+  border: 1px solid #fff;
+  border-radius: 2px;
+}
+.flag {
+  width: 20px;
+  height: 14px;
+  display: flex;
+}
+.flag div {
+  flex: 1;
+}
+
+/* Account */
+.account {
+  padding: 8px 10px;
+  border: 1px solid transparent;
+  cursor: pointer;
+  font-size: 13px;
+  line-height: 1.3;
+}
+.account:hover {
+  border: 1px solid #fff;
+  border-radius: 2px;
+}
+.account .line1 {
+  color: #ccc;
+}
+.account .line2 {
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  gap: 3px;
+}
+
+/* Orders */
+.orders {
+  padding: 8px 10px;
+  border: 1px solid transparent;
+  cursor: pointer;
+  font-size: 13px;
+  font-weight: bold;
+  white-space: nowrap;
+}
+.orders:hover {
+  border: 1px solid #fff;
+  border-radius: 2px;
+}
+
+/* Cart */
+.cart {
+  display: flex;
+  align-items: flex-end;
+  gap: 4px;
+  padding: 8px 10px;
+  border: 1px solid transparent;
+  cursor: pointer;
+  position: relative;
+}
+.cart:hover {
+  border: 1px solid #fff;
+  border-radius: 2px;
+}
+.cart-count {
+  position: absolute;
+  top: 2px;
+  left: 18px;
+  color: #f08804;
+  font-weight: bold;
+  font-size: 16px;
+}
+.cart-label {
+  font-weight: bold;
+  font-size: 14px;
+}
+
+/* Sub navbar */
+.subnav {
+  background: #232f3e;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  padding: 6px 10px;
+  gap: 18px;
+  font-size: 14px;
+}
+.subnav a {
+  color: #fff;
+  text-decoration: none;
+  padding: 6px 4px;
+  border: 1px solid transparent;
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  gap: 2px;
+}
+.subnav a:hover {
+  border: 1px solid #fff;
+  border-radius: 2px;
+}
+.subnav .all-menu {
+  font-weight: bold;
+}
