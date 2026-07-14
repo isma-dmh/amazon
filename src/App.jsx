@@ -7,19 +7,23 @@ import { Product } from "./pages/Product";
 import { Register } from "./pages/Register";
 import { NotFound } from "./pages/NotFound";
 import { Navbar } from "./components/Navbar";
+import { Footer } from "./components/Footer";
 
 function App() {
   return (
     <>
-    <Navbar/>
+      <Navbar />
+      <main>
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path='/product/:id' element={<Product/>} />
+          <Route path="/product/:id" element={<Product />} />
           <Route path="/cart" element={<Cart />} />
           <Route path="/login" element={<Login />} />
-          <Route path='/register' element={<Register/>} />
-          <Route path='*' element={<NotFound/>} />
+          <Route path="/register" element={<Register />} />
+          <Route path="*" element={<NotFound />} />
         </Routes>
+      </main>
+      <Footer />
     </>
   );
 }

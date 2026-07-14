@@ -1,0 +1,64 @@
+.amazon-footer {
+  width: 100%;
+  font-family: Arial, sans-serif;
+}
+
+.amazon-footer > a {
+  text-decoration: none;
+}
+
+/* Barre "Retourner en haut" */
+.back-to-top {
+  background-color: #37475a;
+  color: #ffffff;
+  text-align: center;
+  padding: 14px 0;
+  font-size: 13px;
+  cursor: pointer;
+  display: block;
+  width: 100dvw;
+}
+
+.back-to-top:hover {
+  background-color: #435a70;
+}
+
+/* Barre du logo */
+.footer-logo-bar {
+  background-color: #27323e;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px 0;
+  a {
+    text-decoration: none;
+  }
+}
+
+.footer-logo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100px;
+}
+
+.footer-logo-text {
+  color: #ffffff;
+  font-size: 26px;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+}
+
+.footer-smile {
+  width: 60px;
+  height: 14px;
+  margin-top: -4px;
+}
+
+.footer-copyright {
+  background-color: #131a22;
+  color: white;
+  font-size: small;
+  text-align: center;
+  padding: 1rem 0;
+}
