@@ -6,6 +6,7 @@
 
 body {
   font-family: Arial, sans-serif;
+  overflow-x: hidden;
 }
 
 #root{
@@ -16,5 +17,6 @@ body {
 
 main{
   flex: 1;
+  margin: 3rem 0;
 }
 

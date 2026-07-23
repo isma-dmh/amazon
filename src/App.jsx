@@ -8,11 +8,13 @@ import { Register } from "./pages/Register";
 import { NotFound } from "./pages/NotFound";
 import { Navbar } from "./components/Navbar";
 import { Footer } from "./components/Footer";
+import {ScrollTop} from "./components/ScrollTop";
 
 function App() {
   return (
     <>
       <Navbar />
+        <ScrollTop/>
       <main>
         <Routes>
           <Route path="/" element={<Home />} />
