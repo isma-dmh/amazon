@@ -2,10 +2,14 @@ import "../assets/styles/components/productList.css";
 import products from "../data/products.json";
 import { ProductCard } from "./ProductCard";
 
-export const ProductList = () => {
+export const ProductList = ({ selectedCategory }) => {
+  const filteredProducts = selectedCategory
+    ? products.filter((product) => product.categorie === selectedCategory)
+    : products;
+
   return (
     <div className="products">
-      {products.map((product) => {
+      {filteredProducts.map((product) => {
         return (
           <ProductCard
             key={product.id}
