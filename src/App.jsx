@@ -8,13 +8,14 @@ import { Register } from "./pages/Register";
 import { NotFound } from "./pages/NotFound";
 import { Navbar } from "./components/Navbar";
 import { Footer } from "./components/Footer";
-import {ScrollTop} from "./components/ScrollTop";
+import { ScrollTop } from "./components/ScrollTop";
+import { CartProvider } from "./context/CartProvider";
 
 function App() {
   return (
-    <>
+    <CartProvider>
       <Navbar />
-        <ScrollTop/>
+      <ScrollTop />
       <main>
         <Routes>
           <Route path="/" element={<Home />} />
@@ -26,7 +27,7 @@ function App() {
         </Routes>
       </main>
       <Footer />
-    </>
+    </CartProvider>
   );
 }
 

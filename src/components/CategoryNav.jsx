@@ -5,7 +5,8 @@ import products from "../data/products.json";
 
 export const CategoryNav = ({ onCategorySelect }) => {
   const uniqueCategories = [
-    ...new Set(products.map((product) => product.categorie)),
+    "Tout",
+    ...new Set(products.map((product) => product.categorie))
   ];
 
   const newCategories = uniqueCategories.map((c, i) => ({
@@ -49,6 +50,7 @@ export const CategoryNav = ({ onCategorySelect }) => {
       </button>
 
       <div className="category-nav-list" ref={scrollRef}>
+
         {categories.map((category) => (
           <button
             key={category.id}

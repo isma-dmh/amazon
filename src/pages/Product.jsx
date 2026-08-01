@@ -1,6 +1,8 @@
 import { useParams } from "react-router-dom";
 import products from "../data/products.json";
 import "../assets/styles/pages/product.css";
+import { useContext } from "react";
+import { CartContext } from "../context/CartProvider";
 
 function Star({ filled }) {
   return (
@@ -38,6 +40,7 @@ export const Product = () => {
   const { id } = useParams();
   const product = products.find((element) => element.id === Number(id));
   const [partieEntiere, partieDecimale] = product.prix.toFixed(2).split(".");
+  const { incremente } = useContext(CartContext);
   return (
     <div className="produit-page">
       <div className="produit-container">
@@ -79,7 +82,10 @@ export const Product = () => {
               <sup className="produit-price-decimals">{partieDecimale}</sup>
             </div>
             <div className="produit-stock">En stock</div>
-            <button className="produit-btn produit-btn-primary">
+            <button
+              onClick={incremente}
+              className="produit-btn produit-btn-primary"
+            >
               Ajouter au panier
             </button>
             <button className="produit-btn produit-btn-secondary">

@@ -3,8 +3,8 @@ import products from "../data/products.json";
 import { ProductCard } from "./ProductCard";
 
 export const ProductList = ({ selectedCategory }) => {
-  const filteredProducts = selectedCategory
-    ? products.filter((product) => product.categorie === selectedCategory)
+  const filteredProducts = selectedCategory && selectedCategory !== "Tout"
+    ? products.filter((product) => product.categorie === selectedCategory) 
     : products;
 
   return (
