@@ -7,16 +7,16 @@
 body {
   font-family: Arial, sans-serif;
   overflow-x: hidden;
+  background-color: white;
 }
 
-#root{
+#root {
   min-height: 100dvh;
   display: flex;
   flex-direction: column;
 }
 
-main{
+main {
   flex: 1;
   margin: 3rem 0;
 }
-

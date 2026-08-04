@@ -1,14 +1,10 @@
-import { Link,useLocation } from "react-router-dom";
+import { Link } from "react-router-dom";
 import "../assets/styles/components/footer.css";
 
 export const Footer = () => {
-  const location = useLocation();
-
   const handleLogoClick = (e) => {
-    if (location.pathname === "/") {
-      e.preventDefault(); // empêche le Link de rien faire
-      window.scrollTo({ top: 0 });
-    }
+    e.preventDefault(); // empêche le Link de rien faire
+    window.scrollTo({ top: 0 });
   };
 
   return (
@@ -19,7 +15,7 @@ export const Footer = () => {
       </div>
       {/* Logo Amazon uniquement */}
       <div className="footer-logo-bar">
-        <Link to="/" className="footer-logo" onClick={handleLogoClick} >
+        <Link to="/" className="footer-logo" onClick={handleLogoClick}>
           <div className="footer-logo-text">amazon</div>
           <svg className="footer-smile" viewBox="0 0 100 20">
             <path

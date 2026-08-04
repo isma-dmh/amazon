@@ -40,7 +40,7 @@ export const Product = () => {
   const { id } = useParams();
   const product = products.find((element) => element.id === Number(id));
   const [partieEntiere, partieDecimale] = product.prix.toFixed(2).split(".");
-  const { incremente } = useContext(CartContext);
+  const { addArticles } = useContext(CartContext);
   return (
     <div className="produit-page">
       <div className="produit-container">
@@ -83,13 +83,10 @@ export const Product = () => {
             </div>
             <div className="produit-stock">En stock</div>
             <button
-              onClick={incremente}
+              onClick={() => addArticles(product)}
               className="produit-btn produit-btn-primary"
             >
               Ajouter au panier
-            </button>
-            <button className="produit-btn produit-btn-secondary">
-              Acheter cet article
             </button>
           </div>
         </div>
